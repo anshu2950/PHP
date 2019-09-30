@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *, *::before, *::after{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            html, body{
+                font: 400 15px/1.9 "Lato", sans-serif;
+                position: relative;
+            }
+            header{
+                text-align: center;
+                background: linear-gradient(#ffba04, #ff9904);
+                color: #fff;
+                font: 300 15px/1 "Lato", sans-serif;
+                padding: 5vmin;
+            }
+            header h1{
+                font-weight: 800;
+                font-size: 40px;
+                text-shadow: 0px 0px 10px #000;
+            }
+            header h2{
+                font-weight: 300;
+                font-size: 20px;
+            }
+            a{
+                text-decoration: none;
+                color: #fff;
+                background: linear-gradient(#ffba04, #ff9904);
+                border: 1px solid #ff9904;
+                display: block;
+                margin: 1vmin 0;
+                text-align: center;
+                transition: all 1s;
+            }
+            a:hover{
+                background: #fff;
+                color: #ff9904;
+            }
+            .form-wrapper{
+                padding: 5vmin;
+                width: 70vw;
+                border: 1px solid #ff9904;
+                margin: 5vmin 0;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "wrapper">
+            <header>
+                <h1>Personal Loan</h1>
+                <h2>Get Instant loan in a few minutes</h2>
+            </header>
+            <div class = "form-wrapper">
+                <div>
+                    <a href = "home.php">Home Loan</a>
+                </div>
+                <div>
+                    <a href = "car.php">Car Loan</a>
+                </div>
+                <div>
+                    <a href = "personal.php">Personal Loan</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
